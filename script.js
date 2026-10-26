@@ -111,7 +111,7 @@ function tipCalc(bill, tipPercent) {
   // Write your code here
   let tip = bill * (tipPercent / 100);
   let total = bill + tip;
-  return "tip is " + tip +", total is " + total.toFixed(2);
+  return total.toFixed(2);
 }
 
 
